@@ -1,0 +1,865 @@
+                  <!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pratham Capital - Your First Wealth Partner</title>
+  <link rel="stylesheet" href="./assets/utility/bootstrap/bootstrap.min.css" >
+  <link rel="stylesheet" href="./assets/utility/css/index.css">
+  <link rel="stylesheet" href="./assets/utility/bootstrap/bootstrap-icons.css"  />
+  <link rel="stylesheet" href="./assets/utility/owlcarousel/owl.carousel.min.css" />
+  <link rel="stylesheet" href="./assets/utility/aos/aos@2.3.4.css"/>
+</head>
+
+<body>
+
+
+  <!-- Hero Section -->
+  <section class="hero-section" style="padding-bottom: 60px;">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light  fixed-top" id="mainNavbar" >
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <div class="">
+
+            <div class="brand-logo">
+
+              <img src="./assets/images/prathamLogo.png" data-aos="fade-down"/>
+
+            </div>
+
+          </div>
+          <div class="ms-3">
+            <div class="brand-name"><span class="poppins_font" data-aos="zoom-in">Pratham Capital</span></div>
+            <div class="brand-tagline">YOUR FIRST WEALTH PARTNER</div>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto" >
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <!-- <li class="nav-item dropdown dropdown-hover">
+  <button type="button" class="nav-link  dropdown-toggle" data-bs-toggle="dropdown">
+    Dropdown button
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Link 1</a></li>
+    <li><a class="dropdown-item" href="#">Link 2</a></li>
+    <li><a class="dropdown-item" href="#">Link 3</a></li>
+  </ul>
+</li> -->
+
+            <!-- Services Hover Dropdown -->
+            <li class="nav-item dropdown dropdown-hover" >
+              <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" >
+                Services
+              </a>
+
+              <ul class="dropdown-menu shadow">
+                
+                <li><a class="dropdown-item" href="./loan.html">Loans</a></li>
+                <li><a class="dropdown-item" href="./mutual_fund.html">Mutual Fund</a></li>
+                <li><a class="dropdown-item" href="./Forex.html">Forex</a></li>
+                <li><a class="dropdown-item" href="./Insurance.html">Insurance</a></li>
+
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./About.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Contact.html">Contact</a>
+            </li>
+          </ul>
+
+          <div class="d-flex align-items-center gap-3">
+            <!-- <a href="#login" class="nav-link">Log In</a> -->
+
+
+            <div class="nav-item dropdown dropstart">
+              <!-- <a class="btn btn-primary dropdown-toggle" href="https://login.prathamcapital.in/" id="loginDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Login
+              </a> -->
+
+              <a class="btn btn-primary " href="https://login.prathamcapital.in/" >
+                Login
+              </a>
+
+              <div class="dropdown-menu p-3 shadow" style="min-width: 14rem;">
+
+
+                <form onclick="event.stopPropagation();">
+
+                  <div class="mb-3">
+                    <input type="email" class="form-control" placeholder=" Email" required />
+                  </div>
+
+                  <div class="mb-3">
+                    <input type="password" class="form-control" placeholder=" Password" required />
+                  </div>
+
+                  <!-- Optional select instead of nested dropdown -->
+                  <div class="mb-3">
+                    <select class="form-select">
+                      <option selected>Select Role</option>
+                      <option>Client</option>
+                      <option>Employee</option>
+                      <option>Admin</option>
+                    </select>
+                  </div>
+
+                  <button type="submit" class="btn btn-primary w-100 p-2">
+                    Submit
+                  </button>
+
+                </form>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="container position-relative">
+      <div class="row justify-content-center">
+        <div class="col-lg-10 text-center ">
+          
+          <span class="badge-partner" data-aos="fade-down">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M3 17L9 11L13 15L21 7" stroke="#FF8C00" stroke-width="2" stroke-linecap="round"
+                stroke-linejoin="round" />
+            </svg>
+            Your First Wealth Partner
+          </span>
+          <h1 class="hero-title mt-4" data-aos="fade-up">
+            Build Wealth with<br>
+            <span class="text-brand wave-text"><span class="pratham_text">Pratham</span><span class="capital_text">
+                Capital</span></span>
+          </h1>
+          <p class="hero-description mt-4">
+            Comprehensive investment solutions across Mutual Funds,<br>
+            Stocks, Wealth Management, and Global Markets
+          </p>
+          <div class="hero-buttons mt-5">
+            <a href="./Contact.html#contact_us_form" class="btn btn-primary btn-start" data-aos="fade-left">
+              Start Investing
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"
+                class="ms-2">
+                <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="white" stroke-width="2" stroke-linecap="round"
+                  stroke-linejoin="round" />
+              </svg>
+            </a>
+            <a href="./Contact.html#contact_us_form" class="btn btn-outline-dark btn-explore" data-aos="fade-right">Explore Services</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Stats Section -->
+      <div class="container">
+
+
+        <div class="row stats-section mt-5 pt-5">
+          <div class="col-12 col-md-12">
+            <div class="downld_wealthy_partner_wrap">
+              <div class="downld_wealthy_partner">
+                <div class="downld_wealthy_partner_left">
+                  <div class="downld_wealthy_partner_left_img">
+                    <img src="./assets/images/prathamLogo.png"/>
+                  </div>
+                  <div class="downld_wealthy_partner_left_content">
+                    <p>Download Pratham Capital App</p>
+                    <p>100K+ Download</p>
+                  </div>
+
+                </div>
+                <div class="downld_wealthy_partner_btn1">
+                    <a href="https://play.google.com/store/apps/details?id=com.prathamcapital.prathamcapital"><i class="bi bi-google-play"></i>  Google Play</a>
+                </div>
+                <div class="downld_wealthy_partner_btn2">
+                    <a href="https://apps.apple.com/us/app/pratham-capital/id6755467451"><i class="bi bi-apple"></i> App Store</a>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+          
+        </div>
+
+      </div>
+
+      <div class="my_ads_image1 ">
+            <img src="./assets/images/apps.png"/>
+          </div>
+                <div class="my_ads_image2 ">
+            <img src="./assets/images/service2.png"/>
+          </div>
+    </div>
+  </section>
+  <section class="about-section py-5">
+    <div class="container py-5">
+      <div class="row align-items-center g-5">
+
+        <!-- Left Content -->
+        <div class="col-lg-6" data-aos="fade-up" data-aos-delay="200">
+          <span class="about-badge">About Us</span>
+          <h2 class="about-title mt-3">
+            Building Wealth With <br />
+            Trust & Expertise
+          </h2>
+          <p class="about-text mt-3">
+            At Pratham Capital- Value Research, we connect customers with the best banking answers for LOANS, Wealth Management, 
+            Insurance and Foreign Exchange (Forex) through expert guidance, trusted clients, and individualised support. 
+            We are a customer-first company that makes financial opinions light, smarter, and stress-free.
+          </p>
+
+          <div class="row mt-4">
+            <div class="col-sm-6 mb-3">
+              <div class="about-feature">
+                <i class="bi bi-shield-check"></i>
+                <span>Trusted Advisory</span>
+              </div>
+            </div>
+            <div class="col-sm-6 mb-3">
+              <div class="about-feature">
+                <i class="bi bi-graph-up-arrow"></i>
+                <span>Proven Strategies</span>
+              </div>
+            </div>
+            <div class="col-sm-6 mb-3">
+              <div class="about-feature">
+                <i class="bi bi-people"></i>
+                <span>Client First Approach</span>
+              </div>
+            </div>
+            <div class="col-sm-6 mb-3">
+              <div class="about-feature">
+                <i class="bi bi-award"></i>
+                <span>Experienced Team</span>
+              </div>
+            </div>
+          </div>
+
+          <a href="./Contact.html#contact_us_form" class="btn btn-about mt-3" >Know More</a>
+        </div>
+
+        <!-- Right Card -->
+        <div class="col-lg-6 ">
+
+
+
+          <div class="aboutus_right_image aboutus_right " data-aos="fade-up" data-aos-delay="300">
+            <img src="./assets/images/background.jpg" />
+            <div class="aboutus_right_logo">
+              <div class="aboutus_right_logo_inside">
+                <img src="./assets/images/prathamLogo.png" />
+              </div>
+            </div>
+          </div>
+
+
+
+
+
+          
+
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="py-5 whychooseus">
+    <div class="cta-bg"></div>
+    <div class="container py-5 ">
+      
+
+      <!-- Heading -->
+      <div class="text-center mb-5" data-aos="fade-up" data-aos-delay="200">
+        <h2 class="fw-bold display-5 mb-3 poppins_font">Why Choose Us</h2>
+        <p class="text-muted fs-5">
+          Industry-leading platform with cutting-edge technology and personalized service
+        </p>
+      </div>
+
+      <!-- Grid -->
+      <div class="row g-4 why_choose_us my-5">
+
+        <div class="col-md-6 col-lg-3">
+          <div class="feature text-center" data-aos="fade-up" data-aos-delay="100">
+            <div class="icon-circle">
+              <i class="bi bi-shield-check"></i>
+            </div>
+            <h5 class="fw-bold">Secure & Regulated</h5>
+            <p class="text-muted small whu-text">
+              SEBI registered and fully compliant with all regulatory requirements
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="feature text-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="icon-circle">
+              <i class="bi bi-lightning-charge"></i>
+            </div>
+            <h5 class="fw-bold">Instant Execution</h5>
+            <p class="text-muted small whu-text">
+              Lightning-fast trade execution and real-time portfolio tracking
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="feature text-center" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon-circle">
+              <i class="bi bi-headset"></i>
+            </div>
+            <h5 class="fw-bold">24/7 Support</h5>
+            <p class="text-muted small whu-text">
+              Dedicated relationship managers available round the clock
+            </p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="feature text-center" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon-circle">
+              <i class="bi bi-award"></i>
+            </div>
+            <h5 class="fw-bold">Expert Advisory</h5>
+            <p class="text-muted small whu-text">
+              Professional guidance from certified financial advisors
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section id="stats">
+    <div class="container py-5">
+      <div class="row text-center g-4">
+
+        <div class="col-6 col-md-3">
+          <div class="stat-item" data-delay="0">
+            <div class="stat-value" data-target="500" data-suffix="+">0</div>
+            <div class="stat-label">Crores AUM</div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3">
+          <div class="stat-item" data-delay="100">
+            <div class="stat-value" data-target="50" data-suffix="K+">0</div>
+            <div class="stat-label">Thousand Clients</div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3">
+          <div class="stat-item" data-delay="200">
+            <div class="stat-value" data-target="15" data-suffix="+">0</div>
+            <div class="stat-label">Years Experience</div>
+          </div>
+        </div>
+
+        <div class="col-6 col-md-3">
+          <div class="stat-item" data-delay="300">
+            <div class="stat-value" data-target="98" data-suffix="%">0</div>
+            <div class="stat-label">Client Satisfaction</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="section-padding my_financial_services">
+    <div class="cta-bg"></div>
+    <div class="container py-5 my_financial_services_main">
+
+      <!-- Heading -->
+      <div class="text-center mb-5">
+        <h2 class=" fw-bold display-5 mb-3 poppins_font">
+          Comprehensive <br /> Financial Solutions
+        </h2>
+        <p class="section-subtitle">
+          From mutual funds to global investing, we offer a complete suite of
+          investment products to help you achieve your financial goals
+        </p>
+      </div>
+
+      <!-- Cards -->
+      <div class="row g-4">
+
+        <!-- Mutual Funds -->
+        <div class="col-lg-4">
+          <div class="service-card">
+            <div class="icon-box">
+              <i class="bi bi-graph-up-arrow icon-primary"></i>
+            </div>
+            <h4 class="service-title">Mutual Funds</h4>
+            <p class="service-desc">
+              Diversified investment options with SIP, Lumpsum, Equity, Debt, and
+              Hybrid funds tailored to your goals
+            </p>
+            <ul class="service-list">
+              <li>SIP & Lumpsum</li>
+              <li>Equity Funds</li>
+              <li>Debt Funds</li>
+              <li>Hybrid Funds</li>
+            </ul>
+            <a href="./Contact.html#contact_us_form" class="learn-more">Learn More →</a>
+          </div>
+        </div>
+
+        <!-- loans Market -->
+        <div class="col-lg-4">
+          <div class="service-card">
+            <div class="icon-box">
+              <i class="bi bi-bar-chart-line icon-accent"></i>
+            </div>
+            <h4 class="service-title">Loans</h4>
+            <p class="service-desc">
+              Flexible financing options offering competitive rates and repayment plans 
+            </p>
+            <ul class="service-list">
+              <li>Home Loans</li>
+              <li>Personal Loans</li>
+              <li>Business Loans</li>
+              <li>Education Loans</li>
+            </ul>
+            <a href="./Contact.html#contact_us_form" class="learn-more">Learn More →</a>
+          </div>
+        </div>
+
+        <!-- Forex Products -->
+        <div class="col-lg-4">
+          <div class="service-card">
+            <div class="icon-box">
+              <i class="bi bi-building icon-primary"></i>
+            </div>
+            <h4 class="service-title">Forex</h4>
+            <p class="service-desc">
+              End-to-end foreign exchange services ensuring secure and cost-effective global transactions.
+            </p>
+            <ul class="service-list">
+              <li>Currency exchange</li>
+              <li>International remittances</li>
+              <li>Travel forex solutions</li>
+              <li>Expert Advisory</li>
+            </ul>
+            <a href="./Contact.html#contact_us_form" class="learn-more">Learn More →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <section class="our_partners">
+    <div class="container py-5">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold display-5 mb-3 poppins_font">Our Partners</h2>
+        <p class="text-muted fs-5 subheading">
+          We collaborate with trusted financial institutions and industry leaders. Together, we deliver secure,
+          innovative, and reliable financial solutions.
+        </p>
+      </div>
+    </div>
+    <div class="container">
+
+
+      <div class="our_partners_logo owl-carousel">
+        <div class="our_partners_item">
+          <img src="./assets/images/aditya.webp" />
+        </div>
+        <div class="our_partners_item">
+          <img src="./assets/images/axisbank.webp" />
+        </div>
+        <div class="our_partners_item">
+          <img src="./assets/images/bajaj_finserv.webp" />
+        </div>
+        <div class="our_partners_item">
+          <img src="./assets/images/care_health.webp" />
+        </div>
+        <div class="our_partners_item">
+          <img src="./assets/images/client_chola.webp" />
+        </div>
+        <!-- <div class="our_partners_item">
+      <img src="./assets/images/dsp.webp"/>
+    </div> -->
+        <div class="our_partners_item">
+          <img src="./assets/images/hdfc.webp" />
+        </div>
+        <div class="our_partners_item">
+          <img src="./assets/images/icici.webp" />
+        </div>
+        <div class="our_partners_item">
+          <img src="./assets/images/kotak.webp" />
+        </div>
+        <div class="our_partners_item">
+          <img src="./assets/images/magma.webp" />
+        </div>
+        <div class="our_partners_item">
+          <img src="./assets/images/mahindra_finance.webp" />
+        </div>
+        <div class="our_partners_item">
+          <img src="./assets/images/niva.webp" />
+        </div>
+        <div class="our_partners_item">
+          <img src="./assets/images/pfc.webp" />
+        </div>
+        <div class="our_partners_item">
+          <img src="./assets/images/reliance.webp" />
+        </div>
+        <div class="our_partners_item">
+          <img src="./assets/images/sbi.webp" />
+        </div>
+        <div class="our_partners_item">
+          <img src="./assets/images/shriram.webp" />
+        </div>
+        <div class="our_partners_item">
+          <img src="./assets/images/star.webp" />
+        </div>
+        <div class="our_partners_item">
+          <img src="./assets/images/tata.webp" />
+        </div>
+        <div class="our_partners_item">
+          <img src="./assets/images/zuno.webp" />
+        </div>
+        <div class="our_partners_item">
+          <img src="./assets/images/zurich.webp" />
+        </div>
+      </div>
+    </div>
+  </section>
+ <section class="cta-section py-6">
+    <div class="cta-bg"></div>
+
+    <div class="cta-container py-5">
+      <div class="row ">
+        <div class="col-sm-12 ">
+          <div class="d-flex h-100 py-lg-5">
+<div class="cta-content">
+        <h2 class="poppins_font">Ready to Start Your Investment Journey?</h2>
+        <p>
+          Join thousands of satisfied investors who trust us with their financial future
+        </p>
+
+        <div class="cta-actions">
+          <a href="./Contact.html#contact_us_form" class="btn btn-primary">
+            Open Free Account
+            <i class="bi bi-arrow-right"></i>
+          </a>
+
+          <a href="./Contact.html#contact_us_form" class="btn btn-outline">
+            Schedule a Call
+          </a>
+        </div>
+      </div>
+      </div>
+        </div>
+        <!-- <div class="col-sm-4"> -->
+          <!-- <div class="my-cta-banner-wrap"> -->
+            <!-- <div class="my-cta-banner">
+            <img src="./assets/images/banner1.jpeg"/>
+          </div> -->
+          <!-- <div class="my-cta-banner">
+            <img src="./assets/images/service2.png"/>
+          </div> -->
+          <!-- <div class="my-cta-banner">
+            <img src="./assets/images/service1.jpeg"/>
+          </div>
+          <div class="my-cta-banner">
+            <img src="./assets/images/service1.jpeg"/>
+          </div> -->
+          <!-- </div> -->
+
+        <!-- </div> -->
+
+      </div>
+    </div>
+  </section>
+  <section class="cta-section">
+    <!-- <div class="cta-bg"></div> -->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+    <div class="cta-container py-5" style="max-width: unset;">
+      <div class="cta-content" style="max-width: unset;">
+        <div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3502.773686725899!2d77.4296325!3d28.6065654!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cef6165728471%3A0xf027989e066991a4!2sGaur%20City%20Mall!5e0!3m2!1sen!2sin!4v1770203646769!5m2!1sen!2sin" 
+          width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+        </div>
+
+      </div>
+
+    </div>
+
+
+  </section>
+
+  <!-- <section class="cta-section">
+    <div class="cta-bg"></div>
+
+    <div class="cta-container py-5">
+      <div class="cta-content">
+        <h2 class="poppins_font">Ready to Start Your Investment Journey?</h2>
+        <p>
+          Join thousands of satisfied investors who trust us with their financial future
+        </p>
+
+        <div class="cta-actions">
+          <a href="#" class="btn btn-primary">
+            Open Free Account
+            <i class="bi bi-arrow-right"></i>
+          </a>
+
+          <a href="#" class="btn btn-outline">
+            Schedule a Call
+          </a>
+        </div>
+      </div>
+    </div>
+  </section> -->
+<footer class="footer">
+    <div class="container pt-5 pb-3 ">
+      <div class="row mb-5 ">
+        <!-- Brand Column -->
+        <div class="col-12 col-md-4">
+          <div class="d-flex align-items-center gap-3 ">
+            <div class="brand-logo">
+
+              <img src="./assets/images/prathamLogo.png" />
+
+            </div>
+            <div>
+              <div class="brand-text"><span class="poppins_font">Pratham Capital</span></div>
+              <div class="brand-tagline-footer">Your First Wealth Partner</div>
+            </div>
+          </div>
+
+          <p class="text-muted footer-text small mt-2">
+            Your trusted partner for comprehensive investment solutions and wealth management.
+          </p>
+
+          <div class=" d-flex">
+
+            <a href="https://www.facebook.com/PrathamCapital.in/">
+              <span class="icon-item fb-icon">
+                <img src="./assets/images/facebook.svg" />
+              </span>
+            </a>
+            <a href="https://www.instagram.com/prathamcapital.in/">
+              <span class="icon-item insta-icon">
+                <img src="./assets/images/instagram.png" />
+              </span>
+            </a>
+            <a href="#">
+              <span class="icon-item linked-icon">
+                <img src="./assets/images/linkedin.png" />
+              </span>
+            </a>
+
+          </div>
+
+        </div>
+
+        <!-- Services -->
+        <div class="col-6 col-md-2">
+          <h6 class="fw-bold mb-4 footer-heading poppins_font">Services</h6>
+          <ul class="list-unstyled small footer-text">
+            <li class="mb-2"><a href="#" class="footer-link">Mutual Funds</a></li>
+            <li class="mb-2"><a href="#" class="footer-link">Stock Market</a></li>
+            <li class="mb-2"><a href="#" class="footer-link">Forex</a></li>
+            <li><a href="#" class="footer-link">Insurance</a></li>
+          </ul>
+        </div>
+
+        <!-- Company -->
+        <!-- <div class="col-6 col-md-2">
+          <h6 class="fw-bold mb-4 footer-heading poppins_font">Company</h6>
+          <ul class="list-unstyled small footer-text">
+            <li class="mb-2"><a href="#" class="footer-link">About Us</a></li>
+            <li class="mb-2"><a href="#" class="footer-link">Our Team</a></li>
+            <li class="mb-2"><a href="#" class="footer-link">Careers</a></li>
+            <li><a href="#" class="footer-link">Contact</a></li>
+          </ul>
+        </div> -->
+
+        
+
+        <!-- Contact -->
+        <div class="col-12 col-md-4">
+          <h6 class="fw-bold mb-4 footer-heading poppins_font">Contact</h6>
+          <ul class="list-unstyled small footer-text">
+            <li class="d-flex align-items-center gap-2 mb-3">
+              <i class="bi bi-telephone fs-6 mt-1"></i>
+              <span class="footer-link">0120-5100593</span>
+            </li>
+             <li class="d-flex align-items-center gap-2 mb-3">
+              <i class="bi bi-telephone fs-6 mt-1"></i>
+              <span class="footer-link">+91 9999989580</span>
+            </li>
+            <li class="d-flex align-items-center gap-2 mb-3">
+              <i class="bi bi-envelope fs-6 mt-1"></i>
+              <span class="footer-link">info@prathamcapital.in</span>
+            </li>
+            <li class="d-flex align-items-start gap-2">
+              <i class="bi bi-geo-alt fs-6 mt-1"></i>
+              <span class="footer-link"><span class="fw-bold">HeadOffice : </span> Reg. Office. 10116, Gaur City Mall,<br/> Greater Noida West UP 201318</span>
+            </li>
+            <li class="d-flex align-items-start gap-2 mt-1">
+              <i class="bi bi-geo-alt fs-6 mt-1"></i>
+              <span class="footer-link"><span class="fw-bold">Office : </span>57, World Trade Centre, Barakhamba Road,<br/>Connaught Place, New Delhi -110001</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-2">
+          <h6 class="fw-bold mb-4 footer-heading poppins_font">Download</h6>
+          <div class="footer_play_store mb-3">
+            <a href="https://play.google.com/store/apps/details?id=com.prathamcapital.prathamcapital">
+            <img src="./assets/images/google_play.png"/>
+          </a>
+          </div>
+          <div class="footer_app_store">
+            <a href="https://apps.apple.com/us/app/pratham-capital/id6755467451">
+            <img src="./assets/images/appleappstore.png"/>
+          </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom pt-4 text-center text-muted small">
+        <div class="d-flex justify-content-between">
+        <p class="mb-0">
+          © 2026 Pratham Capital. All rights reserved. <a href="./PrivacyPolicy.html" style="text-decoration: none; color: var(--primary);">Privacy Policy</a>
+        </p>
+          <p>Pratham Capital powered by Anuj Yadav Associates LLP</p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+  <div class="call_whtsapp_buttons">
+    <a href="tel:9999989580" class="call"> <i class="bi bi-telephone-fill"></i> </a>
+    <a href="https://wa.me/9999989580" class="whatsapp"><i class="bi bi-whatsapp"></i> </a>
+  </div>
+  <script src="./assets/utility/jquery_3.7.1.min.js"></script>
+  <script src="./assets/utility/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="./assets/utility/owlcarousel/owl.carousel.min.js"></script>
+  <script src="./assets/utility/aos/aos@2.3.4.js"></script>
+  <script>
+  AOS.init({
+    duration: 900,
+    easing: 'ease-out-cubic',
+    once: true,
+    offset: 80,
+    disable: function () {
+      return window.innerWidth < 768;
+    }
+  });
+</script>
+  <script>
+    const navbar = document.getElementById("mainNavbar");
+
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 50) {
+        navbar.classList.add("scrolled");
+      } else {
+        navbar.classList.remove("scrolled");
+      }
+    });
+  </script>
+  
+  <script>
+    const statItems = document.querySelectorAll(".stat-item");
+    let hasAnimated = false;
+
+    function animateCounter(el, target, suffix) {
+      const duration = 1500;
+      const startTime = performance.now();
+
+      function update(time) {
+        const progress = Math.min((time - startTime) / duration, 1);
+        const value = Math.floor(progress * target);
+        el.textContent = value + suffix;
+
+        if (progress < 1) requestAnimationFrame(update);
+      }
+
+      requestAnimationFrame(update);
+    }
+
+    const observer = new IntersectionObserver(
+      entries => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting && !hasAnimated) {
+            hasAnimated = true;
+
+            statItems.forEach(item => {
+              const delay = item.dataset.delay || 0;
+              setTimeout(() => {
+                item.classList.add("visible");
+
+                const valueEl = item.querySelector(".stat-value");
+                animateCounter(
+                  valueEl,
+                  parseInt(valueEl.dataset.target, 10),
+                  valueEl.dataset.suffix || ""
+                );
+              }, delay);
+            });
+          }
+        });
+      },
+      { threshold: 0.3 }
+    );
+
+    observer.observe(document.getElementById("stats"));
+  </script>
+  <script>
+    $(document).ready(function () {
+
+      $('.owl-carousel.our_partners_logo').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        autoplay: true,
+        // margin: 10,
+        autoplayTimeout: 1000,
+        autoplayHoverPause: false,
+        nav: false,
+        dots: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          600: {
+            items: 3
+          },
+          1000: {
+            items: 6
+          }
+        }
+      })
+
+    });
+
+  </script>
+</body>
+
+</html>        

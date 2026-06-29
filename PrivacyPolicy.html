@@ -1,0 +1,429 @@
+                <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>About Us | Pratham Capital</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="./assets/utility/bootstrap/bootstrap.min.css" >
+  <link rel="stylesheet" href="./assets/utility/css/index.css">
+  <link rel="stylesheet" href="./assets/utility/bootstrap/bootstrap-icons.css"  />
+  <link rel="stylesheet" href="./assets/utility/aos/aos@2.3.4.css"/>
+  <style>
+    :root {
+      --primary:#eb8100;
+      --secondary:#ffb84d;
+    }
+
+
+    .hero {
+      padding: 110px 0;
+      /* background: radial-gradient(circle at top right, #ffe2c2, #ffffff); */
+      /* background: url("./assets/images/headingbackground.jpg"); */
+      /* background: linear-gradient(135deg, #eb810078, #ffb84d75), url(); */
+      
+      background: linear-gradient(135deg, #eb810000, #ffb84db5), url(./assets/images/headingbackground.jpg);
+      
+    }
+
+    .badge-theme {
+      background:#fff2e2;
+      color:var(--primary);
+      padding:6px 14px;
+      border-radius:20px;
+      font-weight:500;
+    }
+
+    .highlight {
+      background: linear-gradient(135deg,var(--primary),var(--secondary));
+      color:#fff;
+      border-radius:22px;
+      padding:60px 40px;
+    }
+
+    .icon-box {
+      width:60px;
+      height:60px;
+      background:#fff2e2;
+      color:var(--primary);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      border-radius:16px;
+      font-size:26px;
+    }
+    .navbar_about{
+        margin-top: 5.5rem;
+    }
+    
+  </style>
+</head>
+<body>
+<section class="navbar_about">
+         <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light  fixed-top" id="mainNavbar" >
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <div class="">
+
+            <div class="brand-logo">
+
+              <img src="./assets/images/prathamLogo.png" data-aos="fade-down"/>
+
+            </div>
+
+          </div>
+          <div class="ms-3">
+            <div class="brand-name"><span class="poppins_font" data-aos="zoom-in">Pratham Capital</span></div>
+            <div class="brand-tagline">YOUR FIRST WEALTH PARTNER</div>
+          </div>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav mx-auto" >
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Home</a>
+            </li>
+            <!-- <li class="nav-item dropdown dropdown-hover">
+  <button type="button" class="nav-link  dropdown-toggle" data-bs-toggle="dropdown">
+    Dropdown button
+  </button>
+  <ul class="dropdown-menu">
+    <li><a class="dropdown-item" href="#">Link 1</a></li>
+    <li><a class="dropdown-item" href="#">Link 2</a></li>
+    <li><a class="dropdown-item" href="#">Link 3</a></li>
+  </ul>
+</li> -->
+
+            <!-- Services Hover Dropdown -->
+            <li class="nav-item dropdown dropdown-hover" >
+              <a class="nav-link dropdown-toggle" href="#" id="servicesDropdown" role="button" >
+                Services
+              </a>
+
+              <ul class="dropdown-menu shadow">
+                
+                <li><a class="dropdown-item" href="./loan.html">Loans</a></li>
+                <li><a class="dropdown-item" href="./mutual_fund.html">Mutual Fund</a></li>
+                <li><a class="dropdown-item" href="./Forex.html">Forex</a></li>
+                <li><a class="dropdown-item" href="./Insurance.html">Insurance</a></li>
+
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="./About.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./Contact.html">Contact</a>
+            </li>
+          </ul>
+
+          <div class="d-flex align-items-center gap-3">
+            <!-- <a href="#login" class="nav-link">Log In</a> -->
+
+
+            <div class="nav-item dropdown dropstart">
+              <a class="btn btn-primary " href="https://login.prathamcapital.in/" >
+                Login
+              </a>
+
+              <div class="dropdown-menu p-3 shadow" style="min-width: 14rem;">
+
+
+                <form onclick="event.stopPropagation();">
+
+                  <div class="mb-3">
+                    <input type="email" class="form-control" placeholder=" Email" required />
+                  </div>
+
+                  <div class="mb-3">
+                    <input type="password" class="form-control" placeholder=" Password" required />
+                  </div>
+
+                  <!-- Optional select instead of nested dropdown -->
+                  <div class="mb-3">
+                    <select class="form-select">
+                      <option selected>Select Role</option>
+                      <option>Client</option>
+                      <option>Employee</option>
+                      <option>Admin</option>
+                    </select>
+                  </div>
+
+                  <button type="submit" class="btn btn-primary w-100 p-2">
+                    Submit
+                  </button>
+
+                </form>
+              </div>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </nav>
+        
+    </section>
+<!-- HERO -->
+<section class="hero text-center">
+  <div class="container">
+    <span class="badge-theme mb-3 d-inline-block roboto_font" data-aos="fade-down">
+      Privacy Policy
+    </span>
+
+    <h1 class="fw-bold display-5 poppins_font" data-aos="fade-up">
+      <span style="color:var(--primary) " class="poppins_font">Pratham capital</span>
+        Privacy Policy
+      
+    </h1>
+
+    <p class="text-muted mt-3 mx-auto roboto_font" style="max-width:720px"
+       data-aos="fade-up" data-aos-delay="150">
+      Your privacy matters to us—our finance platform safeguards your data with bank-grade security 
+      while delivering expert guidance on loans, mutual funds, forex, and investments.
+
+    </p>
+  </div>
+</section>
+
+<!-- ABOUT CONTENT -->
+<section class="py-5">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-12" data-aos="fade-right">
+        <h2 class="fw-bold mb-3 poppins_font woweare_heading">Introduction</h2>
+        <p class="text-muted roboto_font font1point1">
+          This privacy policy sets out how Pratham Capital (A group Co of Anuj Yadav Associates LLP). uses and protects any information that you share when you use this website. Pratham Capital (A group Co of Anuj Yadav Associates LLP). is committed to ensuring that your privacy is protected at all times. Should we ask you to provide certain information by which you can be identified when using this website, you can be assured that it will only be used in accordance with this privacy statement.
+        </p>
+        <p class="text-muted roboto_font font1point1">
+          Pratham Capital (A group Co of Anuj Yadav Associates LLP). may change this policy from time to time by updating this page. This policy is effective from Oct 17, 2025.
+        </p>
+        <p class="text-muted roboto_font font1point1">
+            Pratham Capital (A group Co of Anuj Yadav Associates LLP). understands that our relationship is strongly built on trust and faith. In Course of using information on this website or availing the services, Pratham Capital (A group Co of Anuj Yadav Associates LLP). may become privy to the personal information of its customer including information that is of confidential nature. Pratham Capital (A group Co of Anuj Yadav Associates LLP). is strictly committed to protecting the privacy of its Customer and has taken reasonable measures to protect the confidentiality of the customer information and its transmission through World Wide Web. However it shall not be liable in any manner for disclosure of the confidential information in accordance with this Privacy Commitment or in terms of the agreement if any with the Customer or by reasons beyond its control. We may however be required to disclose your personal information to Government, Judicial bodies, and our Regulators or to any person to whom the Firm is under an obligation to make disclosure under the requirements of any law binding on the Firm or any of its branches, if required. Hyperlink Policy for user Any hyperlink to other Internet sites is at customer’s own risk. The contents of which and the accuracy of opinions expressed are not verified, monitored or endorsed by Pratham Capital (A group Co of Anuj Yadav Associates LLP) in any way or manner. Pratham Capital (A group Co of Anuj Yadav Associates LLP) is not responsible for the setup of any hyperlink from a third party website to Pratham Capital (A group Co of Anuj Yadav Associates LLP)..
+        </p>
+        <h2 class="fw-bold my-3 poppins_font woweare_heading">What we collect</h2>
+        <p class="text-muted roboto_font font1point1">
+            We may collect the following information :
+        </p>
+        <h3 class=" my-3 poppins_font ">
+            Name and contact details
+        </h3>
+        <p class="text-muted roboto_font font1point1">
+            We may collect personal information directly from you, such as your name, email address, contact details, or other identifiers, when you register an account, make a purchase, or interact with certain features of the application.
+        <br/>
+            Your personal information is used to provide you with access to the application's features and functionalities, personalize your experience, and communicate with you about your account or transactions.
+            <br/>
+            We implement industry-standard security measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction.
+            <br/>
+            You have the right to control and manage your personal information within the application. You can update your account details, manage your communication preferences, or exercise your rights under applicable data protection laws.
+            <br/>
+            You can also choose to delete your account or request the deletion of certain personal information by contacting us through the provided channels or there is an option in app settings page.
+    </p>
+    <h3 class=" my-3 poppins_font ">
+            Collection/Use of image data
+        </h3>
+        <p class="text-muted roboto_font font1point1">
+            When you grant permission, our application may access your device's camera or photo gallery to enable features that involve capturing, uploading.
+        <br/>
+            The images you upload or capture within our application may be used for document verification in Video KYC by the application.
+        <br/>
+        We do not share your image data with third parties unless required by law or necessary to provide the services you have requested.
+        </p>
+        <h3 class=" my-3 poppins_font ">
+            Use of location data
+        </h3>
+        <p class="text-muted roboto_font font1point1">
+            We access your location to verifying your identity and granting access to the application's features and functionalities.
+        </p>
+        <h2 class="fw-bold mb-3 poppins_font woweare_heading">Security</h2>
+        <p  class="text-muted roboto_font font1point1">
+            We are committed to ensuring that your information is secure. In order to prevent unauthorised access or disclosure, we have put in place suitable physical, electronic and managerial procedures to safeguard and secure the information we collect online.
+        </p>
+        <h2 class="fw-bold mb-3 poppins_font woweare_heading">Links to other websites</h2>
+        <p  class="text-muted roboto_font font1point1">
+Our website may contain links to other websites of interest. However, once you have used these links to leave our site, you should note that we do not have any control over such third-party websites. Therefore, we cannot be responsible for the protection and privacy of any information which you provide whilst visiting such sites. You should exercise caution and look at the privacy statement applicable to the website in question
+        </p>
+        <h2 class="fw-bold mb-3 poppins_font woweare_heading">Controlling your personal information</h2>
+        <p  class="text-muted roboto_font font1point1">
+            If you believe that any of your information with us is incorrect or incomplete, please email us as soon as possible at <span class="fw-bold"> info@prathamcapital.co.in </span>. We will promptly correct any information found to be incorrect.
+        </p>
+        <h2 class="fw-bold mb-3 poppins_font woweare_heading">Security certificates</h2>
+        <p  class="text-muted roboto_font font1point1">
+            Pratham Capital (A group Co of Anuj Yadav Associates LLP). is an information technology company. We fully recognise and understand the security implications of being a service provider with whom people trust their money. There are many safeguards we adopt in this regard – some of these are technical, and some are structural.
+        <br/>
+        When it comes to data security, our goal is to ensure that: Your data is stored safely and securely – passwords are one-way encrypted before being stored in the database for high security.
+    <br/>
+    All communication with you, or with mutual fund companies and other service providers – are encrypted using the highest standards
+    <br/>
+    Your data is not shared with anyone, unless you have explicitly requested us to do so to fulfil a transaction request.
+    <br/>
+    To ensure that we achieve these goals, we have a variety of certifications/trust verifications in place for our firm, both from technical and legal/operational perspectives. All our communications are encrypted by 256-bit encryption, and our data is hosted with top-tier hosting service providers. Also, our data is continuously backed up to ensure continuity of operations.
+    </p>
+       
+      </div>
+
+      
+    </div>
+  </div>
+</section>
+
+
+<footer class="footer">
+    <div class="container pt-5 pb-3 ">
+      <div class="row mb-5 ">
+        <!-- Brand Column -->
+        <div class="col-12 col-md-4">
+          <div class="d-flex align-items-center gap-3 ">
+            <div class="brand-logo">
+
+              <img src="./assets/images/prathamLogo.png" />
+
+            </div>
+            <div>
+              <div class="brand-text"><span class="poppins_font">Pratham Capital</span></div>
+              <div class="brand-tagline-footer">Your First Wealth Partner</div>
+            </div>
+          </div>
+
+          <p class="text-muted footer-text small mt-2">
+            Your trusted partner for comprehensive investment solutions and wealth management.
+          </p>
+
+          <div class=" d-flex">
+
+            <a href="https://www.facebook.com/PrathamCapital.in/">
+              <span class="icon-item fb-icon">
+                <img src="./assets/images/facebook.svg" />
+              </span>
+            </a>
+            <a href="https://www.instagram.com/prathamcapital.in/">
+              <span class="icon-item insta-icon">
+                <img src="./assets/images/instagram.png" />
+              </span>
+            </a>
+            <!--<a href="#">-->
+            <!--  <span class="icon-item linked-icon">-->
+            <!--    <img src="./assets/images/linkedin.png" />-->
+            <!--  </span>-->
+            <!--</a>-->
+
+          </div>
+
+        </div>
+
+        <!-- Services -->
+        <div class="col-6 col-md-2">
+          <h6 class="fw-bold mb-4 footer-heading poppins_font">Services</h6>
+          <ul class="list-unstyled small footer-text">
+            <li class="mb-2"><a href="#" class="footer-link">Mutual Funds</a></li>
+            <li class="mb-2"><a href="#" class="footer-link">Stock Market</a></li>
+            <li class="mb-2"><a href="#" class="footer-link">Forex</a></li>
+            <li><a href="#" class="footer-link">Insurance</a></li>
+          </ul>
+        </div>
+
+        <!-- Company -->
+        <!-- <div class="col-6 col-md-2">
+          <h6 class="fw-bold mb-4 footer-heading poppins_font">Company</h6>
+          <ul class="list-unstyled small footer-text">
+            <li class="mb-2"><a href="#" class="footer-link">About Us</a></li>
+            <li class="mb-2"><a href="#" class="footer-link">Our Team</a></li>
+            <li class="mb-2"><a href="#" class="footer-link">Careers</a></li>
+            <li><a href="#" class="footer-link">Contact</a></li>
+          </ul>
+        </div> -->
+
+        
+
+        <!-- Contact -->
+        <div class="col-12 col-md-4">
+          <h6 class="fw-bold mb-4 footer-heading poppins_font">Contact</h6>
+          <ul class="list-unstyled small footer-text">
+            <li class="d-flex align-items-center gap-2 mb-3">
+              <i class="bi bi-telephone fs-6 mt-1"></i>
+              <span class="footer-link">0120-5100593</span>
+            </li>
+             <li class="d-flex align-items-center gap-2 mb-3">
+              <i class="bi bi-telephone fs-6 mt-1"></i>
+              <span class="footer-link">+91 9999989580</span>
+            </li>
+            <li class="d-flex align-items-center gap-2 mb-3">
+              <i class="bi bi-envelope fs-6 mt-1"></i>
+              <span class="footer-link">info@prathamcapital.in</span>
+            </li>
+           <li class="d-flex align-items-start gap-2">
+              <i class="bi bi-geo-alt fs-6 mt-1"></i>
+              <span class="footer-link"><span class="fw-bold">HeadOffice : </span> Reg. Office. 10116, Gaur City Mall,<br/> Greater Noida West UP 201318</span>
+            </li>
+            <li class="d-flex align-items-start gap-2 mt-1">
+              <i class="bi bi-geo-alt fs-6 mt-1"></i>
+              <span class="footer-link"><span class="fw-bold">Office : </span>57, World Trade Centre, Barakhamba Road,<br/>Connaught Place, New Delhi -110001</span>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-6 col-md-2">
+          <h6 class="fw-bold mb-4 footer-heading poppins_font">Download</h6>
+          <div class="footer_play_store mb-3">
+            <a href="https://play.google.com/store/apps/details?id=com.prathamcapital.prathamcapital">
+            <img src="./assets/images/google_play.png"/>
+          </a>
+          </div>
+          <div class="footer_app_store">
+            <a href="https://apps.apple.com/us/app/pratham-capital/id6755467451">
+            <img src="./assets/images/appleappstore.png"/>
+          </a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Bottom Bar -->
+      <div class="footer-bottom pt-4 text-center text-muted small">
+        <div class="d-flex justify-content-between">
+        <p class="mb-0">
+          © 2026 Pratham Capital. All rights reserved. <a href="./PrivacyPolicy.html" style="text-decoration: none; color: var(--primary);">Privacy Policy</a>
+        </p>
+          <p>Pratham Capital powered by Anuj Yadav Associates LLP</p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+    <div class="call_whtsapp_buttons">
+    <a href="tel:9999989580" class="call"> <i class="bi bi-telephone-fill"></i> </a>
+    <a href="https://wa.me/9999989580" class="whatsapp"><i class="bi bi-whatsapp"></i> </a>
+  </div>
+  <script src="./assets/utility/jquery_3.7.1.min.js"></script>
+  <script src="./assets/utility/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="./assets/utility/aos/aos@2.3.4.js"></script>
+  <script>
+  AOS.init({
+    duration: 900,
+    easing: 'ease-out-cubic',
+    once: true,
+    offset: 80,
+    disable: function () {
+      return window.innerWidth < 768;
+    }
+  });
+</script>
+  <script>
+    const navbar = document.getElementById("mainNavbar");
+
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 50) {
+        navbar.classList.add("scrolled");
+      } else {
+        navbar.classList.remove("scrolled");
+      }
+    });
+  </script>
+</body>
+</html>
+        
