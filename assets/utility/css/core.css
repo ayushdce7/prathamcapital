@@ -1,0 +1,79 @@
+/* Adding CSS custom properties for comprehensive color scheme */
+:root {
+  /* Primary Brand Colors */
+  --primary-orange: #eb8100;
+  --primary-orange-dark: #e67e00;
+  --primary-orange-light: #ffb84d;
+
+  /* Background Colors */
+  --bg-cream: #faf7f2;
+  --bg-white: #ffffff;
+  --bg-badge: #ffe892ab;
+
+  /* Text Colors */
+  --text-dark: #1a1a1a;
+  --text-gray: #6b6b6b;
+  --text-light: hsl(0, 0%, 56%);
+
+  /* Neutral Colors */
+  --gray-100: #f5f5f5;
+  --gray-200: #e5e5e5;
+  --gray-300: #d4d4d4;
+--primary: #eb8100;
+      --muted: #6c757d;
+  /* Spacing */
+  --section-padding: 120px;
+}
+
+@font-face {
+  font-family: "roboto"; /* Name your font */
+  src: url("../font/Roboto/static/Roboto-Regular.ttf") format("woff"); /* Point to the font file */
+}
+
+@font-face {
+  font-family: "poppins"; /* Name your font */
+  src: url("../font/Poppins/Poppins-Regular.ttf") format("woff"); /* Point to the font file */
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.roboto_font{
+  font-family: roboto;
+}
+.poppins_font{
+  font-family: poppins;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, roboto, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-color: var(--bg-cream);
+  color: var(--text-dark);
+  line-height: 1.6;
+  overflow-x: hidden;
+    width: 100%;
+}
+
+.font1point1{
+  font-size: 1.1rem;
+}
+
+.call_whtsapp_buttons{
+  position: fixed;
+  /* border: 1px solid #000; */
+  z-index: 2;
+  top: 30%;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  background-color: #eb8100;
+  border-top-right-radius: 0.4rem;
+  border-bottom-right-radius: 0.4rem;
+}
+.call_whtsapp_buttons a{
+  color: #fff;
+  font-size: 1.3rem;
+}
