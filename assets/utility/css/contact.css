@@ -1,0 +1,39 @@
+/* 
+    :root {
+      --primary:#eb8100;
+      --secondary:#ffb84d;
+    } */
+
+    /* body { font-family: "Inter", system-ui, sans-serif; } */
+
+    .hero {
+      padding: 100px 0;
+      background: linear-gradient(135deg, #eb810000, #ffb84db5), url(../../images/headingbackground.jpg);
+    }
+.badge-theme {
+      background:#fff2e2;
+      color:var(--primary);
+      padding:6px 14px;
+      border-radius:20px;
+      font-weight:500;
+    }
+    .icon-box {
+      width:55px;
+      height:55px;
+      background:#fff2e2;
+      color:var(--primary);
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      border-radius:14px;
+      font-size:24px;
+    }
+     .navbar_contact{
+        margin-top: 5.5rem;
+    }
+   @media only screen and (max-width:768px){
+     .contact_section .row.g-5{
+      --bs-gutter-y: 1rem;
+      --bs-gutter-x: 1rem;
+    }
+   }

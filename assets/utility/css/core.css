@@ -42,7 +42,7 @@
 }
 
 .roboto_font{
-  font-family: roboto;
+  /* font-family: roboto; */
 }
 .poppins_font{
   font-family: poppins;
@@ -76,4 +76,8 @@ body {
 .call_whtsapp_buttons a{
   color: #fff;
   font-size: 1.3rem;
+}
+
+.text-muted{
+  color: var(--muted)!important;
 }

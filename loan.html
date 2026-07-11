@@ -6,94 +6,13 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
    <link rel="stylesheet" href="./assets/utility/bootstrap/bootstrap.min.css" >
-  <link rel="stylesheet" href="./assets/utility/css/index.css">
   <link rel="stylesheet" href="./assets/utility/bootstrap/bootstrap-icons.css"  />
   <link rel="stylesheet" href="./assets/utility/aos/aos@2.3.4.css"/>
-  <style>
-    :root {
-      --primary: #eb8100;
-      --secondary: #ffb84d;
-    }
+   <link rel="stylesheet" href="./assets/utility/css/core.css">
+<link rel="stylesheet" href="./assets/utility/css/header.css">
+  <link rel="stylesheet" href="./assets/utility/css/footer.css">
+  <link rel="stylesheet" href="./assets/utility/css/loan.css"/>
 
-    body {
-      font-family: "Inter", system-ui, sans-serif;
-    }
-
-    .btn-primary {
-      background: var(--primary);
-      border: none;
-    }
-
-    .btn-primary:hover {
-      background: #d87400;
-    }
-
-    .hero {
-      background: linear-gradient(135deg, #eb810000, #ffb84db5), url(./assets/images/headingbackground.jpg);
-      padding: 110px 0;
-    }
-
-    .badge-theme {
-      background: #fff2e2;
-      color: var(--primary);
-      font-weight: 500;
-      padding: 6px 14px;
-      border-radius: 20px;
-    }
-
-    .icon-box {
-      width: 60px;
-      height: 60px;
-      background: #fff2e2;
-      color: var(--primary);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      border-radius: 16px;
-      font-size: 26px;
-    }
-
-    .service-card {
-      border: none;
-      border-radius: 18px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.06);
-      transition: all 0.35s ease;
-    }
-
-    .service-card:hover {
-      transform: translateY(-8px);
-    }
-
-    .highlight {
-      background: linear-gradient(135deg, var(--primary), var(--secondary));
-      color: #fff;
-      border-radius: 22px;
-      padding: 60px 40px;
-    }
-    .navbar_servicepage{
-        margin-top: 5.5rem;
-    }
-    .whychooseourloanservices_heading{
-      position: relative;
-    }
-    .whychooseourloanservices_heading:after{
-      position: absolute;
-    background-color: #eb8100;
-    z-index: 2;
-    content: "";
-    width: 75%;
-    height: 0.25rem;
-    left: 0;
-    bottom: -0.6rem;
-    }
-    .loan_service_img{
-  background-color: #faf7f2;
-      border-radius: 0.5rem;
-}
-.loan_service_border_radius{
-  border-radius: 0.5rem;
-}
-  </style>
   
 </head>
 
@@ -210,7 +129,7 @@
 <!-- HERO -->
 <section class="hero text-center">
   <div class="container">
-    <span class="badge badge-theme mb-3 d-inline-block poppins_font" data-aos="fade-down">
+    <span class=" badge-theme mb-3 d-inline-block " data-aos="fade-down">
       Loan Solutions
     </span>
 
@@ -219,7 +138,7 @@
       <span style="color:var(--primary)">Pratham Capital</span>
     </h1>
 
-    <p class="text-muted mt-3 mx-auto roboto_font" style="max-width:700px"
+    <p class="text-muted mt-3 mx-auto " style="max-width:700px"
        data-aos="fade-up" data-aos-delay="200">
       Fast, transparent, and affordable loan solutions designed to help you
       achieve your personal and business goals.
@@ -244,7 +163,7 @@
           our loan products are designed with flexibility and trust.
         </p>
 
-        <ul class="list-unstyled mt-4 roboto_font">
+        <ul class="list-unstyled mt-4 text-muted">
           <li class="mb-2"><i class="bi bi-check-circle-fill text-warning me-2"></i> Competitive interest rates</li>
           <li class="mb-2"><i class="bi bi-check-circle-fill text-warning me-2"></i> Minimal documentation</li>
           <li class="mb-2"><i class="bi bi-check-circle-fill text-warning me-2"></i> Fast approval & disbursal</li>
@@ -358,6 +277,15 @@
           <div class="icon-box mb-3"><i class="bi bi-bank2"></i></div>
           <h5 class="fw-bold poppins_font">Loan Against Property</h5>
           <p class="text-muted roboto_font">Unlock value from your property at lower interest rates.</p>
+          <a href="./Contact.html#contact_us_form" class="text-warning fw-semibold text-decoration-none">Learn More →</a>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="500">
+        <div class="card service-card h-100 p-4">
+          <div class="icon-box mb-3"><i class="bi bi-car-front-fill"></i></div>
+          <h5 class="fw-bold poppins_font">Auto Loan</h5>
+          <p class="text-muted roboto_font">Own a passenger auto-rickshaw with easy financing and flexible repayment plans.</p>
           <a href="./Contact.html#contact_us_form" class="text-warning fw-semibold text-decoration-none">Learn More →</a>
         </div>
       </div>

@@ -1,5 +1,3 @@
-
-
 .our_partners{
   /* background-image: url(); */
  
@@ -253,9 +251,7 @@ font-family: poppins;
 }
 
    
-.text-muted{
-  color: var(--muted)!important;
-}
+
 
 /* why choose us */
 .why_choose_us .feature {
@@ -664,74 +660,6 @@ font-family: poppins;
 
 
 
-.wware_main{
-      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-      width: 30rem;
-      height: 80vh;
-      border-radius: 1rem;
-      position: relative;
-    }
-    .wware_borders{
-      border: 1rem solid #f58f67;
-      position: absolute;
-      /* inset: 0; */
-      right: -2rem;
-      top: 2rem;
-      left: 2rem;
-      bottom: -2rem;
-      border-radius: 0.5rem;
-    }
-    .wware_img{
-      width: 100%;
-      height: 100%;
-      position: relative;
-      z-index: 1;
-    }
-    .wware_img img{
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      border-radius: 0.5rem;
-    }
-    .woweare_heading,.ourcorevalues_heading{
-      position: relative;
-    }
-    .woweare_heading:after{
-      position: absolute;
-    background-color: #eb8100;
-    z-index: 2;
-    content: "";
-    width: 40%;
-    height: 0.25rem;
-    left: 0;
-    bottom: -0.3rem;
-
-    }
-    .ourcorevalues_heading:after{
-      position: absolute;
-    background-color: #eb8100;
-    z-index: 2;
-    content: "";
-    width: 25%;
-    height: 0.25rem;
-    left: 38%;
-    bottom: -0.3rem;
-    }
-   .ourcorevalues_item{
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    padding: 1rem;
-    border-radius:1rem ;
-    position: relative;
-    overflow: hidden;
-   
-   }
-   .ourcorevalues_item .cta-bg{
-      background: linear-gradient(135deg, rgb(238 135 9), #ffffff, rgb(251 173 61));
-   }
-   .ourcorevalues_content{
-    z-index: 1;
-    position: relative;
-   }
    .my-cta-banner-wrap{
   /* display: flex; */
   height: 100%;
