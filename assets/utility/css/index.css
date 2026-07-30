@@ -233,6 +233,7 @@ font-family: poppins;
   line-height: 1.6;
   color: var(--text-gray);
   margin-top: 1.5rem;
+  font-weight: normal;
 }
 
 .hero-buttons {
